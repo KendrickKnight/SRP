@@ -2,17 +2,19 @@ export default function TJCard(props){
 
     return (
         <div>
-            <img></img>
+            <img src={props.img} alt=""></img>
 
             <div>
                 <div>
-                    <h1></h1>
-                    <a></a>
+                    <p>{props.country}</p>
+                    <a href="google.com">View on google map</a>
+                    <br></br>
+                    <h1>{props.name}</h1>
                 </div>
 
                 <div>
-                    <b></b>
-                    <p></p>
+                    <b>{props.date}</b>
+                    <p>{props.description}</p>
                 </div>
             </div>
         </div>
